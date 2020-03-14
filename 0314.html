@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Webpage Title -->
+    <title>ddowa</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <STYLE>
+        html,
+        body {
+            height: 0%;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        body:before {
+            content: '';
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        button {
+            background: #1AAB8A;
+            color: #fff;
+            border: none;
+            position: relative;
+            height: 60px;
+            font-size: 1.6em;
+            padding: 0 2em;
+            cursor: pointer;
+            transition: 800ms ease all;
+            outline: none;
+        }
+
+        button:hover {
+            background: #fff;
+            color: #1AAB8A;
+        }
+
+        button:before,
+        button:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 2px;
+            width: 0;
+            background: #1AAB8A;
+            transition: 400ms ease all;
+        }
+
+        button:after {
+            right: inherit;
+            top: inherit;
+            left: 0;
+            bottom: 0;
+        }
+
+        button:hover:before,
+        button:hover:after {
+            width: 100%;
+            transition: 800ms ease all;
+        }
+
+        .TOTAL {
+            width: 500PX;
+            padding: auto;
+            margin: 0 auto 30px auto;
+        }
+
+        .ian {
+            font-size: 3.5rem;
+        }
+
+        .iani {
+            font-size: 1rem;
+        }
+    </STYLE>
+</head>
+
+<body>
+
+    <DIV class="TOTAL">
+        <div class="figure">
+            <img src="https://image.chosun.com/sitedata/image/201909/09/2019090901604_0.jpg"
+                class="figure-img img-fluid rounded"
+                alt="A generic square placeholder image with rounded corners in a figure.">
+            <figcaption class="figure-caption text-right">애플워치5 이미지 입니다.</figcaption>
+        </div>
+
+        <span class="ian">애플워치 5 </span> <span class="iani"> 가격 540,000원/개당</span>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">주문자이름</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>선택...</option>
+                <option value="1">1개</option>
+                <option value="2">2개</option>
+                <option value="3">3개</option>
+                <option value="3">4개</option>
+                <option value="3">5개</option>
+                <option value="3">6개</option>
+                <option value="3">7개</option>
+                <option value="3">8개</option>
+                <option value="3">9개</option>
+                <option value="3">10개</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">주소</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">전화번호</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="button">
+            <button>주문하기</button>
+        </div>
+
+    </DIV>
+</body>
+
+</html>
